@@ -1,0 +1,30 @@
+# JNDI logical name for the JMS ConnectionFactory
+ConnectionFactory/ClassName=com.rabbitmq.jms.admin.RMQConnectionFactory
+ConnectionFactory/FactoryName=com.rabbitmq.jms.admin.RMQObjectFactory
+
+# RabbitMQ network settings
+ConnectionFactory/RefAddr/0/Type=host
+ConnectionFactory/RefAddr/0/Content=il_tuo_host_rabbitmq
+ConnectionFactory/RefAddr/0/String=true
+
+ConnectionFactory/RefAddr/1/Type=port
+ConnectionFactory/RefAddr/1/Content=5672
+ConnectionFactory/RefAddr/1/String=true
+
+ConnectionFactory/RefAddr/2/Type=virtualHost
+ConnectionFactory/RefAddr/2/Content=/
+ConnectionFactory/RefAddr/2/String=true
+
+# RabbitMQ credentials
+ConnectionFactory/RefAddr/3/Type=username
+ConnectionFactory/RefAddr/3/Content=il_tuo_username
+ConnectionFactory/RefAddr/3/String=true
+
+ConnectionFactory/RefAddr/4/Type=password
+ConnectionFactory/RefAddr/4/Content=la_tua_password
+ConnectionFactory/RefAddr/4/String=true
+
+# Optional SSL
+# ConnectionFactory/RefAddr/5/Type=ssl
+# ConnectionFactory/RefAddr/5/Content=true
+# ConnectionFactory/RefAddr/5/String=true

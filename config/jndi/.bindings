@@ -1,0 +1,19 @@
+#This file is used by the JNDI FSContext.
+#Thu Aug 06 22:54:35 CEST 2026
+ConnectionFactory/ClassName=com.rabbitmq.jms.admin.RMQConnectionFactory
+ConnectionFactory/FactoryName=com.rabbitmq.jms.admin.RMQObjectFactory
+ConnectionFactory/RefAddr/0/Content=localhost
+ConnectionFactory/RefAddr/0/Encoding=String
+ConnectionFactory/RefAddr/0/Type=host
+ConnectionFactory/RefAddr/1/Content=5672
+ConnectionFactory/RefAddr/1/Encoding=String
+ConnectionFactory/RefAddr/1/Type=port
+ConnectionFactory/RefAddr/2/Content=/
+ConnectionFactory/RefAddr/2/Encoding=String
+ConnectionFactory/RefAddr/2/Type=virtualHost
+ConnectionFactory/RefAddr/3/Content=guest
+ConnectionFactory/RefAddr/3/Encoding=String
+ConnectionFactory/RefAddr/3/Type=username
+ConnectionFactory/RefAddr/4/Content=guest
+ConnectionFactory/RefAddr/4/Encoding=String
+ConnectionFactory/RefAddr/4/Type=password
